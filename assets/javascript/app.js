@@ -55,7 +55,7 @@ function displayMovieInfo() {
     var artistName = $(this).attr("data-name");
     console.log(artistName)
     var apiKey = "AQuJkP3ytJgzdpJpDCOMrZi17lYMobOt"
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + artistName + "&api_key=" + apiKey + "&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + artistName + "&api_key=" + apiKey + "&limit=10";
 
     $.ajax({
         url: queryURL,
