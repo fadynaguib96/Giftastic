@@ -1,0 +1,97 @@
+body {
+    background-image: url("../images/baher-khairy-98238-unsplash.jpg");
+    background-size: cover;
+
+}
+
+
+.jump {
+    background-color: lightseagreen;
+};
+
+.artist{
+    margin-right:10px;
+    background-color: antiquewhite;
+   
+}
+
+.submitbtn{
+    font-size: 20px;
+}
+.box{
+    background-color: lightcyan;
+    padding: 15px 15px 0px 15px;
+    opacity: 0.95;
+ 
+}
+
+.box2{
+    background-color: lightcyan;
+    opacity: 0.95;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.add {
+    font-size: 30px;
+}
+
+.artist {
+    font-size: 18px;
+    margin-right:8px;
+    margin-bottom: 8px;
+}
+
+.ratings {
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+}
+
+@media screen and (max-width:768px){
+    .submitbtn{
+        font-size: 15px;
+        margin-top:5px;
+    }
+
+    .add {
+        font-size: 20px;
+    }
+
+    .artist {
+        font-size: 12px;
+        margin-right:5px;
+        margin-bottom: 5px;
+    }
+
+    .ratings {
+        margin-top: 8px;
+        font-size: 14px;
+        font-family: 'Merienda', cursive;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    .submitbtn{
+        font-size: 10px;
+        margin-top:5px;
+    }
+
+    .add {
+        font-size: 14px;
+    }
+
+    .artist {
+        font-size: 8px;
+        margin-right:2px;
+        margin-bottom: 2px;
+    }
+
+    .ratings {
+        margin-top: 8px;
+        font-size: 10px;
+        font-family: 'Merienda', cursive;
+    }
+
+}
